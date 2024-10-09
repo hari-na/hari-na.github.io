@@ -1,0 +1,434 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following IEEE 802.11 amendments introduced MU-MIMO for the first time?",
+            "options": ["802.11ac Wave 1", "802.11n", "802.11ax", "802.11ac Wave 2"],
+            "answer": "802.11ac Wave 2"
+        },
+        {
+            "question": "What is the maximum theoretical data rate for a single spatial stream using 802.11ax with 160 MHz channel width and 1024-QAM?",
+            "options": ["866.7 Mbps", "1.2 Gbps", "4.8 Gbps", "9.6 Gbps"],
+            "answer": "4.8 Gbps"
+        },
+        {
+            "question": "Which WiFi security protocol uses a four-way handshake to establish a secure connection between client and access point?",
+            "options": ["WEP", "WPA2-PSK", "WPA3-SAE", "EAP-TLS"],
+            "answer": "WPA2-PSK"
+        },
+        {
+            "question": "In an 802.11ax network, which feature allows access points to coordinate transmissions to avoid collisions?",
+            "options": ["MU-MIMO", "BSS Coloring", "OFDMA", "Target Wake Time (TWT)"],
+            "answer": "BSS Coloring"
+        },
+        {
+            "question": "What is the purpose of the Association Identifier (AID) in the 802.11 MAC layer?",
+            "options": ["Identifies the physical location of a client", "Defines the priority of traffic classes", "Uniquely identifies a client in a BSS for data delivery", "Serves as the encryption key for WPA2"],
+            "answer": "Uniquely identifies a client in a BSS for data delivery"
+        },
+        {
+            "question": "Which frame subtype is used in the 802.11 standard to respond to a Probe Request?",
+            "options": ["Beacon", "Association Response", "Probe Response", "Authentication"],
+            "answer": "Probe Response"
+        },
+        {
+            "question": "What is the role of the RADIUS server in an 802.1X authentication process?",
+            "options": ["Encrypts the data between client and access point", "Provides dynamic frequency selection (DFS) for 5 GHz channels", "Authenticates users by verifying credentials", "Configures QoS settings for the network"],
+            "answer": "Authenticates users by verifying credentials"
+        },
+        {
+            "question": "Which of the following is a characteristic of the 5 GHz band compared to the 2.4 GHz band in WiFi networks?",
+            "options": ["Longer range but lower data rates", "More prone to interference from microwave ovens", "Higher throughput with shorter range", "Uses only 20 MHz channel widths"],
+            "answer": "Higher throughput with shorter range"
+        },
+        {
+            "question": "In 802.11 networks, which field in the MAC header is used to manage frame retransmission?",
+            "options": ["Duration/ID field", "Sequence Control field", "Frame Control field", "Address field"],
+            "answer": "Sequence Control field"
+        },
+        {
+            "question": "What is the function of the RTS/CTS mechanism in WiFi communication?",
+            "options": ["To enable multi-user communication in OFDMA", "To provide encryption during the transmission of frames", "To mitigate the hidden node problem", "To adjust the transmission power for better range"],
+            "answer": "To mitigate the hidden node problem"
+        },
+        {
+            "question": "Which modulation technique is used in 802.11ax to achieve higher data rates?",
+            "options": ["BPSK", "QPSK", "16-QAM", "1024-QAM"],
+            "answer": "1024-QAM"
+        },
+        {
+            "question": "What is the maximum number of spatial streams supported in 802.11ac?",
+            "options": ["4", "8", "2", "6"],
+            "answer": "8"
+        },
+        {
+            "question": "Which protocol is responsible for mapping MAC addresses to IP addresses in a wireless network?",
+            "options": ["RADIUS", "ARP", "DHCP", "DNS"],
+            "answer": "ARP"
+        },
+        {
+            "question": "Which 802.11 standard first introduced the concept of MIMO (Multiple Input Multiple Output)?",
+            "options": ["802.11g", "802.11n", "802.11a", "802.11b"],
+            "answer": "802.11n"
+        },
+        {
+            "question": "What is the primary purpose of Dynamic Frequency Selection (DFS) in 5 GHz WiFi networks?",
+            "options": ["To avoid radar interference", "To select the fastest channel", "To prevent collisions", "To balance load between access points"],
+            "answer": "To avoid radar interference"
+        },
+        {
+            "question": "Which type of antenna is typically used for long-range point-to-point wireless links?",
+            "options": ["Omni-directional", "Patch", "Yagi", "Dipole"],
+            "answer": "Yagi"
+        },
+        {
+            "question": "What is the maximum EIRP allowed for WiFi transmission in the 2.4 GHz band in the United States?",
+            "options": ["100 mW", "500 mW", "1 W", "4 W"],
+            "answer": "1 W"
+        },
+        {
+            "question": "Which of the following methods is used for detecting WiFi network congestion in 802.11ax?",
+            "options": ["CSMA/CA", "BSS Coloring", "EDCA", "MU-MIMO"],
+            "answer": "BSS Coloring"
+        },
+        {
+            "question": "In WiFi, what is the purpose of the preamble in a data frame?",
+            "options": ["To identify the client", "To detect signal strength", "To synchronize the receiver with the transmitter", "To encrypt the data"],
+            "answer": "To synchronize the receiver with the transmitter"
+        },
+        {
+            "question": "Which of the following is a WiFi Alliance certification program focused on improving video streaming quality?",
+            "options": ["Wi-Fi CERTIFIED 6", "Wi-Fi CERTIFIED Vantage", "Wi-Fi CERTIFIED WMM", "Wi-Fi CERTIFIED Optimized Connectivity"],
+            "answer": "Wi-Fi CERTIFIED Vantage"
+        },
+        {
+            "question": "What is the channel width of a single channel in the 2.4 GHz band?",
+            "options": ["10 MHz", "20 MHz", "40 MHz", "80 MHz"],
+            "answer": "20 MHz"
+        },
+        {
+            "question": "What is the typical backoff method used in CSMA/CA to manage channel access in WiFi networks?",
+            "options": ["Random Backoff", "Exponential Backoff", "Linear Backoff", "Priority-Based Backoff"],
+            "answer": "Random Backoff"
+        },
+        {
+            "question": "Which 802.11 amendment introduced Fast BSS Transition (FT) for improved handoff between access points?",
+            "options": ["802.11e", "802.11r", "802.11w", "802.11ac"],
+            "answer": "802.11r"
+        },
+        {
+            "question": "What is the purpose of the NAV (Network Allocation Vector) in 802.11 MAC operation?",
+            "options": ["To allocate bandwidth for data streams", "To manage QoS priorities", "To indicate the time period during which the medium is occupied", "To synchronize multiple access points"],
+            "answer": "To indicate the time period during which the medium is occupied"
+        },
+        {
+            "question": "Which of the following is an advantage of using OFDMA in 802.11ax?",
+            "options": ["Reduces latency in dense environments", "Increases transmission power", "Expands frequency range", "Enhances security"],
+            "answer": "Reduces latency in dense environments"
+        },
+        {
+            "question": "What is the primary difference between WPA2 and WPA3 security protocols?",
+            "options": ["WPA3 uses longer passphrases", "WPA3 introduces the Simultaneous Authentication of Equals (SAE)", "WPA3 supports older devices", "WPA3 requires dual-band operation"],
+            "answer": "WPA3 introduces the Simultaneous Authentication of Equals (SAE)"
+        },
+        {
+            "question": "Which of the following tools is most commonly used for WiFi packet capture and analysis?",
+            "options": ["Wireshark", "Nmap", "OpenVAS", "Kismet"],
+            "answer": "Wireshark"
+        },
+        {
+            "question": "What is the primary function of the TIM (Traffic Indication Map) in a WiFi beacon frame?",
+            "options": ["Indicates the data rate supported by the AP", "Signals the presence of buffered data for clients", "Manages roaming between APs", "Controls channel selection for clients"],
+            "answer": "Signals the presence of buffered data for clients"
+        },
+        {
+            "question": "Which frequency band does WiFi 6E operate in?",
+            "options": ["2.4 GHz", "5 GHz", "6 GHz", "Both 2.4 GHz and 5 GHz"],
+            "answer": "6 GHz"
+        },
+        {
+            "question": "Which of the following is a feature of Target Wake Time (TWT) in 802.11ax?",
+            "options": ["Reduces interference between BSSs", "Enables multiple devices to transmit simultaneously", "Allows devices to schedule their wake-up times", "Provides dynamic frequency adjustment"],
+            "answer": "Allows devices to schedule their wake-up times"
+        },
+        {
+            "question": "Which type of WiFi interference is most likely to be caused by a microwave oven?",
+            "options": ["Narrowband Interference", "Wideband Interference", "Co-Channel Interference", "Adjacent Channel Interference"],
+            "answer": "Wideband Interference"
+        },
+        {
+            "question": "In a WiFi network, what is the purpose of the 'Ack' frame?",
+            "options": ["To acknowledge receipt of a data frame", "To request association with an AP", "To initiate the four-way handshake", "To authenticate a client"],
+            "answer": "To acknowledge receipt of a data frame"
+        },
+        {
+            "question": "What is the minimum signal-to-noise ratio (SNR) typically required for a stable 802.11ac connection?",
+            "options": ["10 dB", "20 dB", "30 dB", "40 dB"],
+            "answer": "20 dB"
+        },
+        {
+            "question": "Which wireless feature is designed to allow devices to operate in environments with overlapping access points without significant interference?",
+            "options": ["Airtime Fairness", "DFS", "BSS Coloring", "TX Beamforming"],
+            "answer": "BSS Coloring"
+        },
+        {
+            "question": "What is the role of the Group Temporal Key (GTK) in WPA2?",
+            "options": ["Encrypts unicast traffic between client and AP", "Manages the four-way handshake", "Encrypts broadcast and multicast traffic", "Performs mutual authentication between client and AP"],
+            "answer": "Encrypts broadcast and multicast traffic"
+        },
+        {
+            "question": "What does the 'greenfield' mode refer to in 802.11n?",
+            "options": ["Operation with only 802.11n clients", "Use of 40 MHz channels", "Implementation of MU-MIMO", "Backward compatibility with 802.11g"],
+            "answer": "Operation with only 802.11n clients"
+        },
+        {
+            "question": "Which 802.11 standard first introduced support for Quality of Service (QoS) through EDCA?",
+            "options": ["802.11g", "802.11e", "802.11n", "802.11a"],
+            "answer": "802.11e"
+        },
+        {
+            "question": "In WiFi networks, what is an SSID?",
+            "options": ["Signal Strength Indicator Device", "Service Set Identifier", "Single Signal Identification", "Security Service Identification"],
+            "answer": "Service Set Identifier"
+        },
+        {
+            "question": "Which 802.11 standard operates exclusively in the 60 GHz frequency band?",
+            "options": ["802.11ac", "802.11ad", "802.11ax", "802.11n"],
+            "answer": "802.11ad"
+        },
+        {
+            "question": "What does the term 'hidden node' refer to in WiFi?",
+            "options": ["A device with a weak signal", "A device that cannot detect another device's transmission", "An AP with a hidden SSID", "A client device not authenticated"],
+            "answer": "A device that cannot detect another device's transmission"
+        },
+        {
+            "question": "Which of the following is a key characteristic of WiFi Direct?",
+            "options": ["Requires an access point for communication", "Supports peer-to-peer connections without an AP", "Uses only the 5 GHz band", "Supports up to 8 spatial streams"],
+            "answer": "Supports peer-to-peer connections without an AP"
+        },
+        {
+            "question": "Which frame type is used to disconnect a client from an access point in WiFi networks?",
+            "options": ["Deauthentication", "Disassociation", "Probe Request", "Beacon"],
+            "answer": "Deauthentication"
+        },
+        {
+            "question": "What is the role of a Supplicant in 802.1X authentication?",
+            "options": ["It provides authentication credentials", "It acts as an authenticator", "It verifies user credentials", "It acts as a network switch"],
+            "answer": "It provides authentication credentials"
+        },
+        {
+            "question": "Which type of wireless interference is most commonly caused by nearby Bluetooth devices?",
+            "options": ["Co-channel interference", "Narrowband interference", "Adjacent channel interference", "Frequency hopping interference"],
+            "answer": "Frequency hopping interference"
+        },
+        {
+            "question": "Which encryption method is used in WPA3 to protect data privacy?",
+            "options": ["TKIP", "AES-GCMP", "RC4", "DES"],
+            "answer": "AES-GCMP"
+        },
+        {
+            "question": "What is the primary function of Beamforming in WiFi?",
+            "options": ["To improve battery life of client devices", "To reduce interference from nearby APs", "To focus the WiFi signal towards a specific client", "To extend the frequency range of the AP"],
+            "answer": "To focus the WiFi signal towards a specific client"
+        },
+        {
+            "question": "Which of the following technologies allows multiple clients to share the same frequency channel in 802.11ax?",
+            "options": ["MU-MIMO", "Beamforming", "OFDMA", "BSS Coloring"],
+            "answer": "OFDMA"
+        },
+        {
+            "question": "Which of the following protocols is used for secure remote configuration of WiFi access points?",
+            "options": ["HTTP", "FTP", "SSH", "Telnet"],
+            "answer": "SSH"
+        },
+        {
+            "question": "In WiFi networks, what does the term 'roaming' refer to?",
+            "options": ["Changing the SSID of an AP", "Switching between frequency bands", "A client moving between APs within the same ESS", "Configuring a new client on the network"],
+            "answer": "A client moving between APs within the same ESS"
+        },
+        {
+            "question": "Which WiFi standard includes the use of 80+80 MHz channels?",
+            "options": ["802.11n", "802.11g", "802.11ac", "802.11ax"],
+            "answer": "802.11ac"
+        },
+        {
+            "question": "Which of the following is a characteristic of WEP that makes it insecure?",
+            "options": ["Uses a fixed-length IV", "Supports dynamic key management", "Uses AES encryption", "Requires RADIUS server for authentication"],
+            "answer": "Uses a fixed-length IV"
+        },
+        {
+            "question": "What is the purpose of the DHCP snooping feature in WiFi networks?",
+            "options": ["To prevent unauthorized DHCP servers", "To enhance encryption between client and server", "To assign IP addresses to clients", "To manage channel selection"],
+            "answer": "To prevent unauthorized DHCP servers"
+        },
+        {
+            "question": "What is the role of the 'acknowledgement' in the CSMA/CA protocol used in WiFi?",
+            "options": ["To indicate successful frame transmission", "To request transmission time slots", "To perform encryption key exchange", "To monitor channel usage"],
+            "answer": "To indicate successful frame transmission"
+        },
+        {
+            "question": "Which of the following is a common cause of WiFi channel interference?",
+            "options": ["VLAN misconfiguration", "RF reflections", "High SNR", "Large MTU size"],
+            "answer": "RF reflections"
+        },
+        {
+            "question": "What is the role of the PMK (Pairwise Master Key) in WPA2?",
+            "options": ["To encrypt data between client and AP", "To authenticate the user", "To generate transient keys for data encryption", "To manage QoS settings"],
+            "answer": "To generate transient keys for data encryption"
+        },
+        {
+            "question": "Which of the following is a potential security risk when using an open WiFi network?",
+            "options": ["Frequency overlap", "Unauthorized access to the network", "BSS selection bias", "Excessive SNR"],
+            "answer": "Unauthorized access to the network"
+        },
+        {
+            "question": "What is the purpose of RRM (Radio Resource Management) in enterprise WiFi deployments?",
+            "options": ["To increase the number of SSIDs", "To control client IP addressing", "To manage power levels and channel selection", "To encrypt data transmission"],
+            "answer": "To manage power levels and channel selection"
+        },
+        {
+            "question": "Which type of frame in WiFi is used to maintain synchronization between an AP and its clients?",
+            "options": ["Control frame", "Management frame", "Data frame", "Beacon frame"],
+            "answer": "Beacon frame"
+        },
+        {
+            "question": "Which 802.11 feature allows a WiFi network to operate in a 'mesh' configuration, extending coverage without additional wired infrastructure?",
+            "options": ["MU-MIMO", "OFDMA", "WDS", "Mesh Networking"],
+            "answer": "Mesh Networking"
+        },
+        {
+            "question": "What does the acronym 'DFS' stand for in WiFi networks?",
+            "options": ["Dynamic Frequency Sharing", "Direct Frequency Selection", "Dynamic Frequency Selection", "Directional Frequency Shift"],
+            "answer": "Dynamic Frequency Selection"
+        },
+        {
+            "question": "Which of the following describes the effect of increasing channel width from 20 MHz to 40 MHz in a 2.4 GHz WiFi network?",
+            "options": ["Decreases potential interference", "Increases throughput but also increases interference risk", "Reduces coverage range", "Prevents adjacent channel interference"],
+            "answer": "Increases throughput but also increases interference risk"
+        },
+        {
+            "question": "Which parameter is most important to adjust for improving the range of a WiFi access point?",
+            "options": ["SSID", "Transmission Power", "Channel Width", "RTS Threshold"],
+            "answer": "Transmission Power"
+        },
+        {
+            "question": "What is a key limitation of using WMM (Wi-Fi Multimedia) for prioritizing traffic?",
+            "options": ["Only works on 5 GHz", "Requires special hardware", "Does not guarantee bandwidth", "Only supports video streams"],
+            "answer": "Does not guarantee bandwidth"
+        },
+        {
+            "question": "Which of the following is a critical factor for ensuring high-performance WiFi in dense environments?",
+            "options": ["Using wide channels", "High transmission power", "Effective client load balancing", "Using a single SSID for all access points"],
+            "answer": "Effective client load balancing"
+        },
+        {
+            "question": "Which modulation scheme is least likely to be used in a modern 802.11ax network?",
+            "options": ["BPSK", "QPSK", "16-QAM", "DSSS"],
+            "answer": "DSSS"
+        },
+        {
+            "question": "What is the role of the 'Control and Provisioning of Wireless Access Points' (CAPWAP) protocol?",
+            "options": ["Manages power levels of access points", "Facilitates communication between wireless controllers and access points", "Provides encryption for data packets", "Handles client authentication"],
+            "answer": "Facilitates communication between wireless controllers and access points"
+        },
+        {
+            "question": "What is the recommended minimum RSSI for reliable video streaming over WiFi?",
+            "options": ["-85 dBm", "-70 dBm", "-60 dBm", "-50 dBm"],
+            "answer": "-70 dBm"
+        },
+        {
+            "question": "Which of the following could cause a WiFi signal to weaken as it passes through a wall?",
+            "options": ["WMM", "SSID", "Attenuation", "MIMO"],
+            "answer": "Attenuation"
+        },
+        {
+            "question": "What is the primary function of a WiFi bridge?",
+            "options": ["To extend the range of an SSID", "To convert wired connections into wireless", "To link two wired networks wirelessly", "To amplify WiFi signals"],
+            "answer": "To link two wired networks wirelessly"
+        },
+        {
+            "question": "Which of the following can be used to measure the signal strength of a WiFi network?",
+            "options": ["RTT", "RSSI", "DHCP", "ARP"],
+            "answer": "RSSI"
+        },
+        {
+            "question": "What is a common method for mitigating co-channel interference in WiFi deployments?",
+            "options": ["Using narrower channels", "Increasing transmit power", "Configuring a single SSID", "Enabling beamforming"],
+            "answer": "Using narrower channels"
+        },
+        {
+            "question": "Which type of attack is specifically aimed at causing a denial of service in a WiFi network?",
+            "options": ["ARP Spoofing", "Evil Twin", "Deauthentication Attack", "DNS Poisoning"],
+            "answer": "Deauthentication Attack"
+        },
+        {
+            "question": "What is the maximum theoretical data rate for a 160 MHz channel in 802.11ac?",
+            "options": ["1.2 Gbps", "3.6 Gbps", "6.93 Gbps", "9.6 Gbps"],
+            "answer": "6.93 Gbps"
+        },
+        {
+            "question": "Which WiFi standard first introduced the concept of 'Guard Interval' to reduce inter-symbol interference?",
+            "options": ["802.11g", "802.11n", "802.11ac", "802.11ax"],
+            "answer": "802.11n"
+        },
+        {
+            "question": "Which of the following WiFi technologies is most effective at minimizing the impact of multipath fading?",
+            "options": ["SISO", "DSSS", "MIMO", "FHSS"],
+            "answer": "MIMO"
+        },
+        {
+            "question": "What is the role of a WiFi repeater?",
+            "options": ["To convert 2.4 GHz to 5 GHz", "To extend WiFi coverage by amplifying signals", "To act as a DHCP server", "To reduce latency in communication"],
+            "answer": "To extend WiFi coverage by amplifying signals"
+        },
+        {
+            "question": "What is the primary difference between open system authentication and shared key authentication in WEP?",
+            "options": ["Open system uses encryption", "Shared key does not require a password", "Open system does not encrypt the authentication frame", "Shared key is faster than open system"],
+            "answer": "Open system does not encrypt the authentication frame"
+        },
+        {
+            "question": "Which of the following features is exclusive to WiFi 6 (802.11ax)?",
+            "options": ["MU-MIMO", "OFDMA", "Beamforming", "802.11r Fast Transition"],
+            "answer": "OFDMA"
+        },
+        {
+            "question": "Which layer of the OSI model does the 802.11 MAC sublayer operate at?",
+            "options": ["Layer 1 (Physical)", "Layer 2 (Data Link)", "Layer 3 (Network)", "Layer 4 (Transport)"],
+            "answer": "Layer 2 (Data Link)"
+        },
+        {
+            "question": "What is the primary purpose of a WiFi heatmap?",
+            "options": ["To visualize signal strength across an area", "To configure access point settings", "To measure packet loss", "To monitor active connections"],
+            "answer": "To visualize signal strength across an area"
+        },
+        {
+            "question": "Which type of network topology is used when multiple access points communicate with a single wireless controller?",
+            "options": ["Star topology", "Mesh topology", "Tree topology", "Hub-and-spoke topology"],
+            "answer": "Hub-and-spoke topology"
+        },
+        {
+            "question": "Which of the following is a method for increasing the throughput of a WiFi network without adding new access points?",
+            "options": ["Using narrower channels", "Reducing transmit power", "Implementing channel bonding", "Disabling QoS"],
+            "answer": "Implementing channel bonding"
+        },
+        {
+            "question": "What is the main function of WiFi Protected Setup (WPS)?",
+            "options": ["To provide enterprise-grade security", "To simplify the process of connecting devices", "To encrypt data with AES", "To configure VLAN settings"],
+            "answer": "To simplify the process of connecting devices"
+        },
+        {
+            "question": "Which WiFi standard supports data rates up to 54 Mbps in the 2.4 GHz band?",
+            "options": ["802.11b", "802.11g", "802.11a", "802.11n"],
+            "answer": "802.11g"
+        },
+        {
+            "question": "Which term describes the reduction in signal strength as a wireless signal travels through the air?",
+            "options": ["Diffraction", "Attenuation", "Refraction", "Absorption"],
+            "answer": "Attenuation"
+        },
+        {
+            "question": "Which wireless standard is known for operating in the 900 MHz ISM band, often used in industrial IoT applications?",
+            "options": ["802.11ad", "802.11ah", "802.11ac", "802.11b"],
+            "answer": "802.11ah"
+        }
+    ]
+}
